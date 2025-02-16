@@ -60,13 +60,15 @@ function PlayGame(){
 
     }
     if (humanScore > computerScore){
-        console.log("You Won the Game!");
+        alert(`You Won the Game! | your score : ${humanScore} vs computerScore : ${computerScore}`);
 
     } else if (humanScore < computerScore){
-        console.log("You Loose the game");
+        alert(`You Loose the Game! | your score : ${humanScore} vs computerScore : ${computerScore}`);
+        
 
     } else {
-        console.log("It's a draw");
+        alert(`It's a Draw! | your score : ${humanScore} vs computerScore : ${computerScore}`);
+
     }
 }
 
